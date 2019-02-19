@@ -1,4 +1,4 @@
-window.addEventListener('DomContentLoader', () => {
+window.addEventListener('DOMContentLoaded', () => {
 const cartWrapper = document.querySelector('.cart__wrapper'),
 	cart 		  = document.querySelector('.cart'),
 	close 		  = document.querySelector('.cart__close'),
@@ -45,4 +45,4 @@ const cartWrapper = document.querySelector('.cart__wrapper'),
 	});
 
 
-});
+})
